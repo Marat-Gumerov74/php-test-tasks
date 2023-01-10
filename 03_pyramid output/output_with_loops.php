@@ -1,14 +1,16 @@
 <?php
-function print_piramid(): void
+function print_pyramid(): void
 {
-  for ($i = 1, $cycle = $i ; $i < 6; $i++, $cycle=$i){
+  for ($i = 1, $cycle = $i; $i < 6; $i++, $cycle = $i) {
 
     while ($cycle > 0) {
       $cycle--;
-      echo  "$i";
+      echo "$i";
     }
     echo "\n";
   };
-};
+}
 
-print_piramid();
+;
+
+print_pyramid();
